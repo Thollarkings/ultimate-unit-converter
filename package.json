@@ -1,14 +1,18 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "ultimate-unit-conver",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+   "homepage": "https://Thollarkings.github.io/ultimate-unit-converter",
+  "description": "A simple and powerful unit converter for all your needs.",
+  "author": "Thollarkings",
+   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
